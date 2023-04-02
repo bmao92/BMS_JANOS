@@ -474,7 +474,7 @@ main{
     margin-bottom: 10px;
 }
 
-.navbar.navbar-expand-lg{
+body.Home .navbar.navbar-expand-lg{
     display: none;
 }
 
@@ -1674,7 +1674,7 @@ body.Home > .container > .content > .content-principal{
         padding: 0;
     }
 
-    .navbar.navbar-expand-lg {
+    body.Home .navbar.navbar-expand-lg {
         display: block;
     }
 
@@ -1728,7 +1728,7 @@ body.Home > .container > .content > .content-principal{
     background-size: 23px!important;
 }
 
-.logo-aside {
+body.Home .logo-aside {
     position: absolute;
     width: 152px;
     right: -9px;

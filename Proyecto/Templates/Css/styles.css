@@ -1825,6 +1825,37 @@ h3.tittles-bms.configstyle {
 
 }
 
+
+
+
+@media only screen and (max-width: 700px) {
+    .col-6.pad000 {
+        width: 100%;
+        padding: 0;
+        max-width: 444px;
+        margin: auto;
+    }
+
+    #pills-TabIlumin > div {
+        margin: 0!important;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .col-6.brd-rar.text-center {
+         margin-right: 0; 
+        padding: 0;
+        border: 0;
+         margin-top: 0; 
+         position: relative; 
+         left: 0;
+        width: 65%;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .banner {
         height: 130px;
@@ -1876,31 +1907,3 @@ h3.tittles-bms.configstyle {
 }
 
 
-
-@media only screen and (max-width: 700px) {
-    .col-6.pad000 {
-        width: 100%;
-        padding: 0;
-        max-width: 444px;
-        margin: auto;
-    }
-
-    #pills-TabIlumin > div {
-        margin: 0!important;
-        display: inline-flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        flex-wrap: nowrap;
-    }
-
-    .col-6.brd-rar.text-center {
-         margin-right: 0; 
-        padding: 0;
-        border: 0;
-         margin-top: 0; 
-         position: relative; 
-         left: 0;
-        width: 65%;
-        margin: auto;
-    }
-}

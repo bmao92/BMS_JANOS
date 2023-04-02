@@ -167,7 +167,9 @@ header{
 }
 
 .login > header > nav > ul > li > a > img{
-    filter: invert(1);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
     max-width: 42px;
 }
 
@@ -196,7 +198,9 @@ header{
 
 .panel-login img{
     margin: auto;
-    filter: contrast(0);
+    filter: contrast(0%);
+    -webkit-filter: contrast(0%);
+    -moz-filter: contrast(0%);
     display: flex;
     width: inherit;
     flex-direction: row;
@@ -356,7 +360,9 @@ main{
     background: url(../Icons/triangle-right.svg);
     background-size: 27px 32px;
     background-position: -6px -7px;
-    filter: invert(1);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
 }
 
 .aside .nav-link.drop.active.collapsed::after,
@@ -375,6 +381,8 @@ main{
 .aside .nav-link.drop.active.collapsed::after{
     background: url(../Icons/triangle-right.svg);
     filter: contrast(0.475);
+    -webkit-filter: contrast(0.475);
+    -moz-filter: contrast(0.475);
 }
 
 .aside ul li ul li a.nav-link.drop::after{
@@ -390,6 +398,8 @@ main{
 .aside .nav-link:hover.exit::after ,
 .aside .nav-link:hover.drop::after {
     filter: contrast(1);
+    -webkit-filter: contrast(1);
+    -moz-filter: contrast(1);
 }
 
 .aside .nav-link.exit::after {
@@ -397,6 +407,8 @@ main{
    background-size: 26px 26px;
    background-position: -6px -6px;
    filter: contrast(0.475);
+   -webkit-filter: contrast(0.475);
+   -moz-filter: contrast(0.475);
 }
 
 .aside .nav-link.drop.active::after {
@@ -404,6 +416,8 @@ main{
    background-size: 27px 32px;
    background-position: -6px -7px;
    filter: invert(1);
+   -webkit-filter: invert(1);
+   -moz-filter: invert(1);
 }
 
 .aside .nav-link.exit.active::after {
@@ -411,6 +425,8 @@ main{
     background-size: 26px 26px;
     background-position: -6px -6px;
     filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
 }
 
 .aside .nav-link.drop.hij.active::after {
@@ -418,12 +434,16 @@ main{
    background-size: 27px 32px;
    background-position: -6px -7px;
    filter: invert(1);
+   -webkit-filter: invert(1);
+   -moz-filter: invert(1);
 }
 
 .aside .nav-link.drop.active.collapsed::after {
    background-size: 27px 32px;
    background-position: -4px -9px;
    filter: invert(1);
+   -webkit-filter: invert(1);
+   -moz-filter: invert(1);
 }
 
 .aside ul ul {
@@ -1400,6 +1420,8 @@ main > div {
    background-size: 27px 32px;
    background-position: -6px -7px;
    filter: invert(1);
+   -webkit-filter: invert(1);
+   -moz-filter: invert(1);
 }
 
 .fixme .collapse.show .nav-link.drop.active, 
@@ -1797,5 +1819,18 @@ body.Home .logo-aside {
 
     .sectrhdhj {
         padding: 30px 0px!important;
+    }
+
+    .login > header > nav > ul > li > a > span {
+        min-width: 125px;
+        font-size: 16px;
+    }
+
+    .login > header > nav > ul > li > a > img {
+        max-width: 33px;
+    }
+
+    .login > header > nav > ul:nth-child(2) > li > a > img.m-2 {
+        max-width: 120px!important;
     }
 }

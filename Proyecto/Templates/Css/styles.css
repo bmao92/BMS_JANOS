@@ -1344,6 +1344,10 @@ button.btnselectorroom.nav-link.drop.text-min {
     align-content: center;
 }
 
+.nobackg {
+    word-break: break-word;
+}
+
 main{
     width: 100%;
     max-width: 306px;
@@ -1352,6 +1356,56 @@ main{
 
 main > div {
     position: fixed;
+}
+
+.fixme ul.collapse > li > a{
+    color: white;
+}
+
+.fixme ul ul {
+   list-style-type: none!important;
+   padding: 0 23px;
+   margin: 1px 0px;
+   font-size: 14px;
+}
+
+.fixme a{
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+
+.fixme .nav-item.active::after,
+.nav-item.hij.active.collapsed::after {
+    background: url(../Icons/triangle-right.svg);
+    background-size: 27px 32px;
+    background-position: -6px -7px;
+    filter: invert(1);
+}
+
+.fixme ul li ul li a.nav-item::after,
+.fixme .nav-item::after,
+.fixme .nav-item.active.collapsed::after{
+    background: url(../Icons/triangle-right.svg);
+    filter: contrast(0.475);
+}
+
+.fixme .nav-item.active::after {
+   background: url(../Icons/triangle-right.svg);
+   background-size: 27px 32px;
+   background-position: -6px -7px;
+   filter: invert(1);
+}
+.fixme .nav-item.hij.active::after {
+   background: url(../Icons/triangle-down.svg);
+   background-size: 27px 32px;
+   background-position: -6px -7px;
+   filter: invert(1);
+}
+
+.fixme .collapse.show .nav-link.drop.active, 
+.fixme .collapse.show .nav-link.drop.active:hover, 
+.fixme .collapse.show .nav-link.drop.active:focus{
+ background: #f78c1b!important;
 }
 /* - - - - - - - - - - - - END CONTENT - - - - - - - - - - - - */
 /*
@@ -1498,7 +1552,7 @@ body.Home > .container > .content > .content-principal{
 }
 
 
-@media only screen and (max-width: 1200px) and (min-width: 960px)  {
+@media only screen and (max-width: 1200px){
     .containerImagFlow > div:first-child{
         display: none!important;
     }
@@ -1709,7 +1763,7 @@ body.Home > .container > .content > .content-principal{
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
     .banner {
         height: 130px;
     }
@@ -1720,6 +1774,28 @@ body.Home > .container > .content > .content-principal{
     }
 
     .Welcome-Banner{
-            width: 264px;
+        width: 264px;
+    }
+
+    .sectrhdhj > .d-flex .tittles-bms{
+        font-size: 14px;
+    }
+
+    .tittles-bms img.xs {
+        margin-right: 10px;
+        max-width: 23px;
+        max-height: 26px;
+    }
+
+    .tittles-bms {
+        font-size: 14px!important;
+    }
+
+    .sectrhdhj > .d-flex .tittles-bms {
+        width: 222px;
+    }
+
+    .sectrhdhj {
+        padding: 30px 0px!important;
     }
 }

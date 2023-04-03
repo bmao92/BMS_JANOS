@@ -957,10 +957,15 @@ h5.sub-tit{
     max-width: 100%;
 }
 
+#pills-tabPisoMenu button.nav-link.disabled{
+        color: #878787;
+}
+
 #seccionImagenPlano {
     margin-left: -5px;
     display: flex;
     max-width: 460px;
+    min-width: 460px;
 }
 
 div#Enconstruccioncosas {
@@ -1368,6 +1373,7 @@ button.btnselectorroom.nav-link.drop.text-min {
     align-content: center;
     justify-content: center;
     align-items: center;
+    min-height: 250px;
 }
 
 .card-Total > h3 {
@@ -1910,9 +1916,10 @@ h3.tittles-bms.configstyle {
     flex-direction: column;
 }
 
-.containerImagFlow > div:nth-child(2){
-    max-width: 291px!important;
-}
+    .containerImagFlow > div:nth-child(2) {
+        max-width: 291px !important;
+        min-width: 291px !important;
+    }
 .containerImagFlow > div:last-child{
     padding: 0;
 }
@@ -2079,6 +2086,17 @@ h3.tittles-bms.configstyle {
         height: 142px;
         mix-blend-mode: normal;
         width: 11px;
+    }
+
+    #areaselector.img12-203 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-luces.png);
+        background-size: 20px 20px !important;
+        position: absolute;
+        margin-top: 125px;
+        margin-left: 187px;
+        height: 25px;
+        mix-blend-mode: normal;
+        width: 25px;
     }
 
 #Dispositivos .tittles-bms{

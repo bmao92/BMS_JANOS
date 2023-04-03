@@ -838,6 +838,10 @@ body.Home .navbar.navbar-expand-lg{
     min-width: 100%;
 }
 
+.containerImagFlow.tretre {
+    justify-content: center;
+}
+
 .selecroom li.nav-item a {
     padding: 5px;
     color: #4d4d4d;
@@ -997,6 +1001,10 @@ h5 img{
 
 .views3d .col{
     text-align: center;
+}
+
+.tittles-bms span#titleh3g {
+    padding-left: 10px;
 }
 
 .p-30-0{
@@ -1465,6 +1473,8 @@ main > div {
 .fixme .collapse.show .nav-link.drop.active:focus{
  background: #f78c1b!important;
 }
+
+
 /* - - - - - - - - - - - - END CONTENT - - - - - - - - - - - - */
 /*
 -
@@ -1611,8 +1621,14 @@ body.Home > .container > .content > .content-principal{
 
 
 @media only screen and (max-width: 1200px){
-    #Dispositivos .containerImagFlow > div:first-child{
-        display: none!important;
+    #Estadisticas_Generales .containerImagFlow > div:nth-child(1) {
+        display: none;
+    }
+    #Estadisticas_Generales .containerImagFlow.tretre > div:nth-child(1) {
+        display: block;
+    }
+    #Dispositivos .containerImagFlow > div:first-child {
+        display: none !important;
     }
     #MenuAside a{
         font-size: 12px!important;
@@ -1730,6 +1746,14 @@ body.Home > .container > .content > .content-principal{
         width: 95%;
         margin: 13px auto 60px;
 
+    }
+
+    #Estadisticas_Generales .containerImagFlow > div:nth-child(1) {
+        display: none;
+    }
+
+    #Estadisticas_Generales .containerImagFlow.tretre > div:nth-child(1) {
+        display: none;
     }
     main {
         display: none !important;
@@ -1953,6 +1977,109 @@ h3.tittles-bms.configstyle {
     height: 82px;
     width: 84px;
 }
+ #areaselector.img8 {
+        background-size: 292px 179px !important;
+        height: 175px;
+        width: 287px;
+    }
+
+    #areaselector.img9-203 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-aire.png);
+        background-size: 20px 10px !important;
+        position: absolute;
+        margin-top: 164px;
+        margin-left: 168px;
+        height: 13px;
+        mix-blend-mode: normal;
+        width: 27px;
+    }
+
+    #areaselector2.img9-204 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-aire.png);
+        background-size: 20px 10px !important;
+        position: absolute;
+        margin-top: 158px;
+        margin-left: 263px;
+        height: 10px;
+        mix-blend-mode: normal;
+        width: 19px;
+    }
+
+    #areaselector.img10-203 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-televisor.png);
+        background-size: 10px 25px !important;
+        position: absolute;
+        margin-top: 131px;
+        margin-left: 179px;
+        height: 25px;
+        mix-blend-mode: normal;
+        width: 20px;
+    }
+
+    #areaselector2.img10-204 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-televisor.png);
+        background-size: 10px 25px !important;
+        position: absolute;
+        margin-top: 124px;
+        margin-left: 225px;
+        height: 27px;
+        mix-blend-mode: normal;
+        width: 15px;
+    }
+
+    #areaselector.img11-203 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-luces.png);
+        background-size: 20px 20px !important;
+        position: absolute;
+        margin-top: 126px;
+        margin-left: 154px;
+        height: 25px;
+        mix-blend-mode: normal;
+        width: 25px;
+    }
+
+    #areaselector2.img11-204 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-luces.png);
+        background-size: 20px 20px !important;
+        position: absolute;
+        margin-top: 126px;
+        margin-left: 245px;
+        height: 25px;
+        mix-blend-mode: normal;
+        width: 22px;
+    }
+
+    #areaselector2.img12-204 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-luces.png);
+        background-size: 20px 20px !important;
+        position: absolute;
+        margin-top: 125px;
+        margin-left: 209px;
+        height: 25px;
+        mix-blend-mode: normal;
+        width: 25px;
+    }
+
+    #areaselector.img13 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-otros-espacios.png);
+        background-size: 283px 104px !important;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 5px;
+        height: 164px;
+        width: 441px;
+    }
+
+    #areaselector.img14 {
+        background: no-repeat url(../../Templates/Images/Mapa-piso-2/seleccion-televisor.png);
+        background-size: 11px 33px !important;
+        position: absolute;
+        margin-top: 77px;
+        margin-left: 275px;
+        height: 142px;
+        mix-blend-mode: normal;
+        width: 11px;
+    }
 
 #Dispositivos .tittles-bms{
     text-align: center;
@@ -2033,4 +2160,5 @@ h3.tittles-bms.configstyle {
    #Configuracion .bg-dt.border-0.btn-newuser{
     height: 100%;
    }
+
 }

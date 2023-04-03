@@ -724,7 +724,7 @@ body.Home .navbar.navbar-expand-lg{
 }
 
 .nav.nav-pills.navFlow.overflow-hidden > li{
-    min-width: 134px;
+    min-width: 60px;
     width: 100%;
     color: red;
 }
@@ -951,6 +951,18 @@ h5.sub-tit{
     width: 100%;
     min-width: 100%;
     max-width: 100%;
+}
+
+#seccionImagenPlano {
+    margin-left: -5px;
+    display: flex;
+    max-width: 460px;
+}
+
+div#Enconstruccioncosas {
+    max-width: 500px;
+    margin: 30px auto;
+    width: auto;
 }
 h5 img{
     width: 22px;
@@ -1599,7 +1611,7 @@ body.Home > .container > .content > .content-principal{
 
 
 @media only screen and (max-width: 1200px){
-    .containerImagFlow > div:first-child{
+    #Dispositivos .containerImagFlow > div:first-child{
         display: none!important;
     }
     #MenuAside a{
@@ -1661,9 +1673,13 @@ body.Home > .container > .content > .content-principal{
         font-size: 12px;
         min-height: 30px;
     }
-    .nav.nav-pills.navFlow.overflow-hidden > li {
+    #Dispositivos .nav.nav-pills.navFlow.overflow-hidden > li {
         min-width: 80px;
         width: 100%;    
+    }
+    #Estadisticas_Generales .nav.nav-pills.navFlow.overflow-hidden > li {
+        min-width: auto;
+        width: 100%;
     }
 
     div#Panel_de_Control > div.d-flex,
@@ -1712,7 +1728,7 @@ body.Home > .container > .content > .content-principal{
 @media only screen and (max-width: 959px) {
     body.Home > .container > .content > .content-principal{
         width: 95%;
-        margin: 13px auto 20px;
+        margin: 13px auto 60px;
 
     }
     main {
@@ -2017,5 +2033,4 @@ h3.tittles-bms.configstyle {
    #Configuracion .bg-dt.border-0.btn-newuser{
     height: 100%;
    }
-
 }

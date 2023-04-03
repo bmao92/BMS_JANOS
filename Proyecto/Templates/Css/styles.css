@@ -1666,7 +1666,8 @@ body.Home > .container > .content > .content-principal{
         width: 100%;    
     }
 
-    div#Panel_de_Control > div.d-flex {
+    div#Panel_de_Control > div.d-flex,
+    div#Configuracion > div.d-flex {
         display: flex!important;
         flex-direction: column;
     }
@@ -1677,10 +1678,14 @@ body.Home > .container > .content > .content-principal{
     }
 
     .sectrhdhj.fiu70 {
-        max-width: inherit;
+        max-width: -webkit-fill-available;
         border: none !important;
         width: auto;
         margin: 15px auto;
+    }
+
+    #Configuracion .sectrhdhj.fiu70 > div.d-flex > div.p10{
+        margin-left: auto!important;
     }
 
     .textSeeFor {
@@ -1937,10 +1942,16 @@ h3.tittles-bms.configstyle {
     text-align: center;
 }
 
+#Configuracion .sectrhdhj.fiu70 > div.d-flex > div.p-10{
+        margin-left: auto!important;
+    }
+
+
 
 }
 
 @media only screen and (max-width: 500px) {
+
     .banner {
         height: 130px;
     }
@@ -2001,6 +2012,10 @@ h3.tittles-bms.configstyle {
 
     .sectrhdhj.jjjjjo > .d-flex .tittles-bms {
        width: 100%; 
+   }
+
+   #Configuracion .bg-dt.border-0.btn-newuser{
+    height: 100%;
    }
 
 }

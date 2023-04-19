@@ -640,12 +640,13 @@ body.Home .navbar.navbar-expand-lg{
 */
 /* - - - - - - - - - - - - - CONTENT - - - - - - - - - - - - - */
 
-.navsSwitch{
+.navsSwitch {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .seeFor{
@@ -1127,6 +1128,12 @@ button.btnselectorroom.nav-link.drop.text-min.active {
     width: 113px;
 }
 
+.selectPiso + img {
+    position: absolute;
+    width: 140px;
+    margin-left: -68px;
+}
+
 #areaselector.img2 {
     background: no-repeat url(../../Templates/Images/Mapa-piso-2/habitacion-202.png);
     background-size: 113px 123px !important;
@@ -1392,7 +1399,8 @@ button.btnselectorroom.nav-link.drop.text-min {
     width: 100%;
     font-family: 'Figtree-Bold';
 }
-#textoGraficas{
+#textoGraficas,
+#textoCostos{
     font-family: 'Figtree-SemiBold';
 }
 
